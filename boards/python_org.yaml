@@ -1,0 +1,17 @@
+# The python.org job board (server-rendered HTML). Selectors reflect the
+# board's markup at the time of writing; if a scrape returns 0 rows, open the
+# page in a browser, inspect a listing, and update them.
+name: python_org
+start_url: https://www.python.org/jobs/
+min_interval: 3.0
+max_pages: 5
+listing:
+  item: "ol.list-recent-jobs > li"
+  link: "h2.listing-company span.listing-company-name a"
+  company: "h2.listing-company span.listing-company-name"
+  location: "span.listing-location"
+  posted: "span.listing-posted time"
+  posted_attr: datetime
+  next_page: "ul.pagination li.next a"
+detail:
+  body: "div.job-description"

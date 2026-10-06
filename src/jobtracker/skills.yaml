@@ -1,0 +1,68 @@
+# canonical skill -> category + aliases (matched case-insensitively on word
+# boundaries). Entries with `case_sensitive: true` only match the exact casing
+# given, which avoids false hits like the verb "go" or the letter "r".
+Python: {category: language, aliases: [python, python3]}
+Java: {category: language, aliases: [java]}
+JavaScript: {category: language, aliases: [javascript, js, ecmascript]}
+TypeScript: {category: language, aliases: [typescript, ts]}
+Go: {category: language, aliases: [golang, Go], case_sensitive: true}
+Rust: {category: language, aliases: [rust]}
+C++: {category: language, aliases: [c++, cpp]}
+C#: {category: language, aliases: [c#, csharp]}
+C: {category: language, aliases: [C], case_sensitive: true}
+Ruby: {category: language, aliases: [ruby]}
+PHP: {category: language, aliases: [php]}
+Kotlin: {category: language, aliases: [kotlin]}
+Swift: {category: language, aliases: [Swift, swiftui], case_sensitive: true}
+Scala: {category: language, aliases: [scala]}
+Elixir: {category: language, aliases: [elixir]}
+R: {category: language, aliases: [R], case_sensitive: true}
+SQL: {category: data, aliases: [sql]}
+Julia: {category: language, aliases: [Julia], case_sensitive: true}
+React: {category: frontend, aliases: [react, reactjs, react.js]}
+Vue: {category: frontend, aliases: [vue, vuejs, vue.js]}
+Angular: {category: frontend, aliases: [angular, angularjs]}
+Next.js: {category: frontend, aliases: [next.js, nextjs]}
+Node.js: {category: backend, aliases: [node, node.js, nodejs]}
+Django: {category: backend, aliases: [django]}
+Flask: {category: backend, aliases: [flask]}
+FastAPI: {category: backend, aliases: [fastapi]}
+Spring: {category: backend, aliases: [spring, spring boot]}
+Rails: {category: backend, aliases: [rails, ruby on rails]}
+.NET: {category: backend, aliases: [.net, dotnet, asp.net]}
+GraphQL: {category: backend, aliases: [graphql]}
+gRPC: {category: backend, aliases: [grpc]}
+PostgreSQL: {category: data, aliases: [postgres, postgresql, psql]}
+MySQL: {category: data, aliases: [mysql]}
+MongoDB: {category: data, aliases: [mongodb, mongo]}
+Redis: {category: data, aliases: [redis]}
+Elasticsearch: {category: data, aliases: [elasticsearch, elastic search, opensearch]}
+Kafka: {category: data, aliases: [kafka]}
+Spark: {category: data, aliases: [Spark, pyspark, apache spark], case_sensitive: true}
+Airflow: {category: data, aliases: [airflow]}
+dbt: {category: data, aliases: [dbt]}
+Snowflake: {category: data, aliases: [snowflake]}
+BigQuery: {category: data, aliases: [bigquery]}
+pandas: {category: data, aliases: [pandas]}
+AWS: {category: cloud, aliases: [aws, amazon web services]}
+GCP: {category: cloud, aliases: [gcp, google cloud]}
+Azure: {category: cloud, aliases: [azure]}
+Docker: {category: devops, aliases: [docker, containers]}
+Kubernetes: {category: devops, aliases: [kubernetes, k8s]}
+Terraform: {category: devops, aliases: [terraform]}
+CI/CD: {category: devops, aliases: [ci/cd, cicd, github actions, jenkins, gitlab ci]}
+Linux: {category: devops, aliases: [linux]}
+Machine Learning: {category: ml, aliases: [machine learning, ml]}
+Deep Learning: {category: ml, aliases: [deep learning]}
+PyTorch: {category: ml, aliases: [pytorch, torch]}
+TensorFlow: {category: ml, aliases: [tensorflow]}
+scikit-learn: {category: ml, aliases: [scikit-learn, sklearn]}
+LLMs: {category: ml, aliases: [llm, llms, large language models, gpt, generative ai, genai]}
+RAG: {category: ml, aliases: [rag, retrieval augmented generation, retrieval-augmented generation]}
+NLP: {category: ml, aliases: [nlp, natural language processing]}
+Computer Vision: {category: ml, aliases: [computer vision]}
+MLOps: {category: ml, aliases: [mlops]}
+iOS: {category: mobile, aliases: [ios]}
+Android: {category: mobile, aliases: [android]}
+React Native: {category: mobile, aliases: [react native]}
+Flutter: {category: mobile, aliases: [flutter]}
